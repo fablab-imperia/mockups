@@ -12,16 +12,32 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
 
+    <style>
+      html,
+      body,
+      .login-box {
+        height: 100%;
+      }
+    </style>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row ">
-        <form class="col m8 offset-m2  s12 card">
-          <div class="row"><img src="" alt=""></div>           
+    <div class="row login-box valign-wrapper">
+      <form class="col m6 offset-m3 s12 card">
+        <div class="container">
+          <div class="row">
+            <div class="col m6 offset-m3 s12">
+              <img
+                class="responsive-img"
+                src="./images/logo-coopdiana.jpg"
+                alt="logo coopdiana"
+              />
+            </div>
+          </div>
           <div class="row">
             <div class="input-field col m8 offset-m2 s12">
               <input id="username" type="text" class="validate" />
@@ -35,12 +51,17 @@
             </div>
           </div>
           <div class="row">
-            <div class="col s8 offset-s2 center-align">
-              <button class="btn waves-effect">Login</button>
+            <div class="col s6 ">
+                    <a href="" class="orange-text right">Password dimenticata?</a>
+            </div>
+            <div class="col s6">
+              <button class="btn-large waves-effect orange waves-light left">
+                Login
+              </button>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
     <!-- Compiled and minified JavaScript for Materialize-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
